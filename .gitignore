@@ -1,0 +1,33 @@
+# Local credentials and environment overrides
+.env
+.env.*
+!.env.example
+
+# Local agent and editor settings
+.codex/
+.idea/
+.vscode/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python caches, builds, and test output
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
